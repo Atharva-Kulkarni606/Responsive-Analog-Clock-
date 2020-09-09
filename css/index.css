@@ -1,0 +1,48 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#clock-container{
+    position: relative;
+    background: url(../img/clock3.jpg) no-repeat center ;
+    background-size: 100%;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    
+}
+
+#hour,#minute,#seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 2rem;
+    transform-origin: bottom ;
+}
+
+#hour{
+    height: 28%;
+    width: 2%;
+    left: 49.3%;
+    top: 22%;
+    
+}
+
+ #minute{
+    height: 35%;
+    width: 1%;
+    left: 49.3%;
+    top: 13%;
+    
+}
+
+ #seconds{
+    height: 33%;
+    width: 1%;
+    left: 49.3%;
+    top: 16%;
+   
+     
+} 
